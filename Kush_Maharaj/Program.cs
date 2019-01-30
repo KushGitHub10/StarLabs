@@ -36,7 +36,8 @@ namespace Kush_Maharaj
             var formalPants = new FormalPants();
             formalPants.name = "Marvel";
             formalPants.size = "M";
-            basket.pants.Add(formalPants);
+            basket.pants.Add(formalPants); 
+
             Console.WriteLine($"Your total price is R{basket.getTotalPrice()}");
             Console.Read();
         }
